@@ -79,7 +79,7 @@ const Video = () => {
         icon: <MessageOutlined style={{ color: "#108ee9" }} />,
       });
     }
-  }, [msgRcv]);
+  }, [msgRcv, isModalVisible]);
 
   return (
     <div className="grid">

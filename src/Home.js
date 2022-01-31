@@ -8,7 +8,7 @@ import Options from "./components/options/Options";
 const Home = () => {
   useEffect(() => {
     if (!navigator.onLine) alert("Connect to internet!");
-  }, [navigator]);
+  }, []);
  
  useEffect(()=>{
     var cookies = document.cookie.split(";");

@@ -65,7 +65,7 @@ const Options = () => {
       setIsModalVisible(true);
       setOtherUser(call.from);
     } else setIsModalVisible(false);
-  }, [call.isReceivingCall]);
+  }, [call.isReceivingCall, call.from, callAccepted, setOtherUser]);
 
   return (
     <div className={classes.options}>
