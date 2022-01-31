@@ -6,7 +6,8 @@ import { message } from "antd";
 
 // const URL = "https://fathomless-tundra-67025.herokuapp.com/";
 
-const URL = "http://164.52.208.88:8085/"
+// const URL = "http://164.52.208.88:8085/"
+const URL = "https://hm-webrtc-signaling-server.herokuapp.com/"
 
 export const socket = io(URL);
 
